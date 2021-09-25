@@ -1,14 +1,13 @@
-import Head from 'next/head'
 import type { NextPage } from 'next'
+import Layout from 'layouts/default'
 
 const Index: NextPage = () => {
   return (
-    <div>
-      <Head>
-        <title>Tiktok - Make Your Day</title>
-      </Head>
-      <h1 className="text-2xl font-semibold text-indigo-800">Hello world</h1>
-    </div>
+    <Layout>
+      <div className="max-w-5xl mx-auto">
+        <h1 className="text-2xl font-semibold text-indigo-800">Hello world</h1>
+      </div>
+    </Layout>
   )
 }
 
