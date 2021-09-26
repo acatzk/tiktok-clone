@@ -4,7 +4,7 @@ import NextDocument, { Html, Head, Main, NextScript } from 'next/document'
 class Document extends NextDocument {
   render() {
     return (
-      <Html>
+      <Html className="overflow-y-scroll">
         <Head>
           <link rel="icon" href="/assets/images/logo.png" />
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -14,7 +14,7 @@ class Document extends NextDocument {
             rel="stylesheet"
           />
         </Head>
-        <body>
+        <body className="scrollbar-w-2 scrollbar-thumb-rounded-full scrollbar-thumb-gray-300 scrollbar-track-white">
           <Main />
           <NextScript />
         </body>
