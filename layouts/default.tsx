@@ -8,7 +8,7 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="text-black h-[8000px]">
+    <div className="text-black h-[8000px] bg-white">
       <Head>
         <title>Tiktok - Make Your Day</title>
       </Head>
